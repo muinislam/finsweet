@@ -1,0 +1,47 @@
+/* ====== client part start here ===== */
+#client{
+    background-color: rgba(244, 246, 252, 0.5);
+    padding:130px 0;
+    margin-top: 20px;
+}
+.client_heading h3{
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+    margin-bottom: 16px;
+}
+.client_heading p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+}
+.client_content h3{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 48px;
+    color: #282938;
+    margin-bottom: 48px;
+}
+.client_img_box{
+    display: flex; 
+    column-gap: 20px;
+}
+.client_img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img_content p{
+    font-weight: 500;
+    font-size: 18px;
+    color: #282938;
+}
+.img_content span{
+    font-weight: 500;
+    font-size: 12px;
+    color: #282938;
+}

@@ -1,0 +1,43 @@
+
+/* ====== nav_bar start here ====== */
+#nav{
+    background: transparent;
+    color:#fff;
+    position: absolute !important;
+    left:0;
+    top:0;
+    width:100%;
+    padding:16px 0;
+
+}
+.nav-item a{
+    color:$apera;
+}
+#nav .nav-item .nav-link{
+    padding:0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    transition: all linear 0.3s;
+}
+#nav .nav-item .nav-link:hover{
+    color:#fff;
+}
+#nav .navbar-nav{
+    column-gap: 32px;
+    margin-right: 48px;
+}
+#nav .nav_btn{
+    border-radius: 41px;
+    padding:16px 48px;
+    border: 2px solid #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color:#BBBBCB;
+    transition: all linear 0.3s;
+    &:hover{
+    background-color: #FCD980;
+    color:#fff;
+    }
+}

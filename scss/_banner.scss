@@ -1,0 +1,56 @@
+/* ======= bannner part start here====== */
+
+#banner{
+    background-color: #1C1E53;
+    padding:218px 0 218px 0;
+    
+}
+#banner .banner_head{
+    width:582px;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color:#fff;
+}
+.banner_pera{
+    width:582px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color:#fff; 
+    margin-top: 24px;
+}
+.banner_btn{
+    margin-top: 64px;
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+.banner_btn .banner_button{
+    border-radius: 41px;
+    border: 2px solid #BBBBCB;
+    padding:16px 52px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color:#BBBBCB;
+    transition: all linear 0.3s;
+
+}
+.banner_btn .banner_button:hover{
+    background-color: #FCD980;
+    color:#fff;
+}
+.banner_btn .banner_icon{
+    color:#BBBBCB;
+    transition: all linear 0.3s;
+}
+.banner_btn .banner_icon:hover{
+    color:#fff;
+}
+.banner_btn i{
+    margin-left: 16px;
+}
+.img_box{
+    margin-top: 40px;
+}

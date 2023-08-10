@@ -1,0 +1,67 @@
+
+/* ====== features part start here ===== */
+
+#features{
+    background-color: rgba(244, 246, 252, 1);
+    padding: 128px 0;
+}
+.fet_content{
+    text-align: center;
+}
+.fet_content p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #282938;
+}
+.fet_content h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #282938;
+    padding: 0 300px;
+    margin-bottom: 47px;
+
+}
+.fet_full_content{
+    padding: 53px 14px 48px 25px;
+    margin-top: 24px;
+    margin-right: 5px;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+    cursor: pointer;
+    background-color: #fff
+}
+.fet_full_content:hover{
+    -webkit-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.75);
+    margin: 20px 0;
+   
+}
+.fet_full_content h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+    margin: 22px 0 12px 0;
+}
+.fet_full_content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+}
+.fet_icon i{
+    color:rgba(36, 5, 242, 1);
+    font-size: 32px;
+    margin-bottom: 16px;
+    transition: all linear 0.3s;
+}
+.fet_icon i:hover{
+    color:#333;
+    cursor: pointer;
+}

@@ -1,0 +1,150 @@
+/* ====== project part start here ===== */
+
+#project{
+    padding: 128px 0;
+}
+.project_img_theree{
+    padding-top: 12px;
+}
+.project_header{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    margin-bottom: 64px;
+}
+.project_icon{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+.project_icon_box i{
+    margin-left: 16px;
+}
+.project_img_one{
+    position: relative;
+    cursor: pointer;
+}
+.project_overlay{
+    position: absolute;
+    left:-345px;
+    top:0;
+    width:47%;
+    height:100%;
+    background-image: linear-gradient(rgb(50 51 99 / 56%),rgb(50 51 99 / 83%));
+    opacity: 0;
+    transition: all linear 0.8s;
+}
+.project_img_one:hover .project_overlay{
+    opacity: 1;
+    left:0;
+    top:0;
+}
+.project_overlay h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    
+}
+.project_overlay p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.project_overlay a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FCD980;
+    transition: all linear 0.3s;
+    margin-top: 40px;
+}
+.project_overlay a:hover{
+    color:#fff;
+}
+.project_overlay i{
+    margin-left: 16px;
+}
+.overlay_content{
+    width:85%;
+    position: absolute;
+    left: 30px;
+    bottom: 50px;
+}
+.project_img_two{
+    position: relative;
+    cursor: pointer;
+}
+.two{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+    height:100%;
+    background-image: linear-gradient(rgb(50 51 99 / 56%),rgb(50 51 99 / 83%));
+    opacity: 0;
+    transition: all linear 0.8s;
+}
+.project_img_two:hover .two{
+    opacity:1 ;
+}
+.sublet h3{
+    padding: 10px;
+}
+.project_img_theree{
+    position: relative;
+    cursor: pointer;
+}
+.theree{
+    position: absolute;
+    left:50px;
+    top:0;
+    width:100%;
+    height:100%;
+    background-image: linear-gradient(rgb(50 51 99 / 56%),rgb(50 51 99 / 83%));
+    opacity: 0;
+    transition: all linear 0.4s;
+}
+.project_img_theree:hover .theree{
+    opacity: 1;
+    left: 0;
+    top:0;
+}
+.theree h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.theree p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.theree a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FCD980;
+    transition: all linear 0.3s;
+    margin-top: 40px;
+}
+.theree a:hover{
+    color:#fff;
+
+}
+.theree i{
+    margin-left: 16px;
+}
+.sublet3{
+    width:85%;
+    position: absolute;
+    left: 30px;
+    bottom: 50px;
+}

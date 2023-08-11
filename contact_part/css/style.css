@@ -116,18 +116,20 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 6px;
 }
 .contact_from input {
-	margin: 0;
-	font-family: inherit;
-	font-size: inherit;
-	line-height: inherit;
+  width:100%;
 	padding: 12px;
 	border-radius: 5px;
-	border: 1px solid #33333363;
+	border: 1px solid #ddd;
 	text-transform: capitalize;
+  outline: none;
 }
 
 .contact_from .input_area{
   margin: 16px 0;
+}
+.contact_from textarea{
+  outline: none;
+  border:1px solid #ddd;
 }
 .contact_box{
   margin-top: 32px;

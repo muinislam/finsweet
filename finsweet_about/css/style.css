@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6, p {
    font-weight: 600;
    font-size: 54px;
    line-height: 74px;
-   text-transform:lowercase;
+   text-transform:capitalize;
 }
 .problem_one h4{
     font-size: 18px;
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6, p {
   position: absolute;
   width:100%;
   height:100%;
-  top:-50px;
+  top:-10px;
   background-image: linear-gradient(rgba(9, 8, 8, 0.7),rgba(255, 255, 2, 0.22));
   transition: all linear 0.4s;
   opacity: 0;
@@ -147,13 +147,29 @@ h1, h2, h3, h4, h5, h6, p {
 /* ===== problem_solve part end here===== */
 
 /* ===== goal part start here ==== */
-/* ====== foooter part strat here === */
 .goal_foucus_wrapper{
   background-color: #F4F5F5;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap:wrap ;
-    padding: 80px 0 0 80px;
+}
+.goal_content h4{
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 32px;
+}
+.goal_content h2{
+    font-size: 38px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 56px;
+}
+.goal_second{
+  padding-top: 38px;
+}
+.goal_content p{
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 28px;
 }
 .goal_img_box{
   position: relative;
@@ -162,17 +178,24 @@ h1, h2, h3, h4, h5, h6, p {
   width:100%;
   height:100%;
   position: absolute;
-  left:0;
-  top:-50px;
+  left:20px;
+  top:0;
   background-image: linear-gradient(rgba(9, 8, 8, 0.7),rgba(255, 255, 2, 0.22));
   transition: all linear 0.4s;
   opacity: 0;
 }
 .goal_img_box:hover .goal_overlay{
   cursor: pointer;
-  top:0;
+  left:0;
   opacity: 1;
 }
+.goal_img_box img{
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
 .head_one {
 	width: 100%;
 	display: flex;
@@ -188,7 +211,6 @@ h1, h2, h3, h4, h5, h6, p {
   text-transform: capitalize;
 }
 .pera_two {
-	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -200,37 +222,6 @@ h1, h2, h3, h4, h5, h6, p {
 	font-weight: 500;
 	text-transform: capitalize;
 	line-height: 27px;
-}
-
-.goal_content{
-    width:515px;
-}
-.goal_content h4{
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 32px;
-}
-.goal_content h2{
-    font-size: 38px;
-    font-weight: 500;
-    text-transform: capitalize;
-    line-height: 56px;
-}
-.goal_content p{
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 28px;
-}
-.goal_content .goal_second{
-    padding-top: 32px;
-}
-.goal_img_box img{
-  width:100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  object-fit: cover;
 }
 /* ===== proces part start here ===== */
 .proces_wrapper{
@@ -298,7 +289,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .overlay_mission {
 	position: absolute;
-	left: -300px;
+	left: -10px;
 	top: 0;
 	width: 100%;
 	height: 100%;
@@ -388,6 +379,11 @@ h1, h2, h3, h4, h5, h6, p {
 	margin-bottom: 48px;
 	padding: 50px 26px 50px 48px;
   border-radius: 10px;
+  transition: all linear 0.3s;
+}
+.user_content:hover{
+  box-shadow: rgba(99, 99, 99, 0.434) 0px 2px 8px 0px;
+  cursor: pointer;
 }
 .user_icon_box i{
   font-size: 32px;
